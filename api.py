@@ -11,7 +11,7 @@ from lib.search import get_sentences
 def init_evidence_classifier():
     # TODO: 필요한 모델 초기화 수행
     # TODO: 초기화된 모델 반환
-    return None
+    return []
 
 evidence_classifier = init_evidence_classifier()
 
