@@ -2,6 +2,7 @@
 SuggestBot API
 
 ## TODO
+
 * `api.py` 파일의 `is_evidence(claim, evidence_sentence)` 함수 구현
 * `is_evidence()`
   * claim과 evidence_sentence를 받고, `True`/`False` 반환
@@ -9,17 +10,20 @@ SuggestBot API
 ## Install
 
 ### Install dependencies
+
 * `pip install -r requirements.txt`
 
 ### Prepare models
+
 * `python -m spacy download en_core_web_md` (spaCy)
 
 ## Start Server
-`FLASK_APP=api.py FLASK_DEBUG=1 flask run`
 
-Sample: `http://localhost:5000/?claim=This%20is%20a%20claim`
+* Command: `FLASK_APP=api.py FLASK_DEBUG=1 flask run`
+* Sample result: `http://localhost:5000/?claim=This%20is%20a%20claim`
 
 ## API
+
 - GET /
         - Request evidences (Wikipedia) relevent to a given claim.
 
