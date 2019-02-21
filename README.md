@@ -1,6 +1,11 @@
 # SuggestBot API
 SuggestBot API
 
+## TODO
+* `api.py` 파일의 `is_evidence(claim, evidence_sentence)` 함수 구현
+* `is_evidence()`
+  * claim과 evidence_sentence를 받고, `True`/`False` 반환
+
 ## Install
 
 ### Install dependencies
